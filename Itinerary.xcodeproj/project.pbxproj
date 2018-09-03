@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E9682C27213DE0F0008835CD /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682C26213DE0F0008835CD /* TripModel.swift */; };
 		E9682C29213DE10A008835CD /* TripFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682C28213DE10A008835CD /* TripFunctions.swift */; };
+		E9682C2B213DF1A2008835CD /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9682C2A213DF1A2008835CD /* Data.swift */; };
 		E9BD7EFE213CF0BD00F3EA85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD7EFD213CF0BD00F3EA85 /* AppDelegate.swift */; };
 		E9BD7F00213CF0BD00F3EA85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD7EFF213CF0BD00F3EA85 /* ViewController.swift */; };
 		E9BD7F03213CF0BD00F3EA85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9BD7F01213CF0BD00F3EA85 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		E9682C26213DE0F0008835CD /* TripModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
 		E9682C28213DE10A008835CD /* TripFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripFunctions.swift; sourceTree = "<group>"; };
+		E9682C2A213DF1A2008835CD /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		E9BD7EFA213CF0BD00F3EA85 /* Itinerary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Itinerary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9BD7EFD213CF0BD00F3EA85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9BD7EFF213CF0BD00F3EA85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,7 @@
 		E9682C24213DE0BB008835CD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E9682C2A213DF1A2008835CD /* Data.swift */,
 				E9682C25213DE0C8008835CD /* Trip */,
 			);
 			path = Model;
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9BD7F00213CF0BD00F3EA85 /* ViewController.swift in Sources */,
+				E9682C2B213DF1A2008835CD /* Data.swift in Sources */,
 				E9BD7EFE213CF0BD00F3EA85 /* AppDelegate.swift in Sources */,
 				E9682C29213DE10A008835CD /* TripFunctions.swift in Sources */,
 				E9682C27213DE0F0008835CD /* TripModel.swift in Sources */,
