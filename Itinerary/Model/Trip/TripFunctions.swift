@@ -21,12 +21,10 @@ class TripFunctions {
                 Data.tripModel.append(TripModel(title: "Trip To Maxico"))
                 Data.tripModel.append(TripModel(title: "Trip To Thailand"))
             }
+            DispatchQueue.main.async {
+                completion()
+            }
         }
-        DispatchQueue.main.async {
-            completion()
-        }
-
-        
     }
     
     static func updateTrip (tripModel: TripModel){
