@@ -11,17 +11,19 @@ import UIKit
 class TripsTableViewCell: UITableViewCell {
 
     @IBOutlet weak var cardView: UIView!
-    
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var tripImageView: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         cardView.addShadowAndRoundedCourners()
+        tripImageView.layer.cornerRadius = cardView.layer.cornerRadius
     }
     
     func setup (tripModel: TripModel){
         titleLabel.text = tripModel.title
+        tripImageView.image = tripModel.image
     }
 
     
